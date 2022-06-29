@@ -1,15 +1,10 @@
-import React from 'react';
-import './App.css';
-import PwaTest from './PwaTest';
-
-
+import React, {Fragment} from "react";
+import Form from "./Pages/Form";
 function App() {
   return (
-    <div className="App">
-  
-    <PwaTest/>
-    </div>
+    <Fragment>
+      <Form/>
+    </Fragment>
   );
 }
-
 export default App;
